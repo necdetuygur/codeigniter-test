@@ -51,7 +51,7 @@
 						id: id
 					}, (r) => {
 						root.Get();
-						alert(r);
+						console.log(r);
 					});
 				},
 				Update: (name, content, id) => {
@@ -61,7 +61,7 @@
 						content: prompt("Content", content)
 					}, (r) => {
 						root.Get();
-						alert(r);
+						console.log(r);
 					});
 				},
 				Add: () => {
@@ -72,7 +72,7 @@
 						root.name = "";
 						root.content = "";
 						root.Get();
-						alert(r);
+						console.log(r);
 					});
 				},
 				Get: () => {
