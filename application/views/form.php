@@ -17,7 +17,7 @@
 				<tr>
 					<td>Content: </td>
 					<td>
-						<textarea v-model="content"></textarea>
+						<textarea v-model="content" cols="30" rows="5"></textarea>
 					</td>
 				</tr>
 				<tr>
